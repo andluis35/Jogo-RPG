@@ -1,0 +1,113 @@
+body {
+    background-color: #0a0a23;
+}
+
+button {
+    cursor: pointer;
+    color: #0A0A23;
+    background-color: #FEAC32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+    height: 36px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: linear-gradient(#f1943e, #ffac33);
+}
+
+button:active {
+    font-weight: bolder;
+    background: linear-gradient(#cdbbab, #f1943e);
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+.social-medias-images {
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100vh;
+    background-color: #30258a;
+    border-top: 4px solid #576CBC;
+}
+
+.footer p {
+    font-size: 18px;
+    margin: 0;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.footer a {
+    color: #A5D7E8;
+}
+
+.footer a:hover {
+    color: #7488d8;
+    text-shadow: 0 0 1px black;
+}
+
+.footer a:active {
+    color: #19376D;
+}
+
+#text {
+    background-color: #0a0a23;
+    color: #FFFFFF;
+    padding: 10px;
+    height: 54%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#game {
+    height: 55vh;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 22.5%;
+    left: 37.5%;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#controls, #stats {
+    color: #0A0A23;
+    padding: 5px;
+}
+
+#stats {
+    font-size: 24px;
+    text-align: center;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+}
+
+#monsterStats {
+    display: none;
+    border: 1px solid #0A0A23;
+    padding: 5px;
+    color: #FFFFFF;
+    background-color: #C70D0D;
+    border-radius: 20px;
+}
+
