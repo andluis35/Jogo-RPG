@@ -75,6 +75,8 @@ button:active {
 #game {
     height: 55vh;
     width: 25vw;
+    min-width: 480px;
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
